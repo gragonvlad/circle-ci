@@ -10,4 +10,3 @@ RUN apt-get install -y libboost-dev libboost-filesystem-dev libboost-iostreams-d
 RUN git config --global user.email "circleci@build.bot" && git config --global user.name "Circle CI"
 RUN sudo update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 RUN sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang++ 100
-RUN mkdir bin
